@@ -68,9 +68,6 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## Contacto
-
-Para cualquier pregunta o sugerencia, puedes contactarme a través de [email@example.com](mailto:email@example.com) o abrir un issue en el repositorio.
 
 ---
 
