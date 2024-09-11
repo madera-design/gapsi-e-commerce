@@ -1,0 +1,138 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: flex;
+}
+
+.product-list {
+  flex: 4; /* 80% del ancho */
+  padding: 0 20px;
+}
+
+.cart {
+  flex: 1; /* 20% del ancho */
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.cart h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.info-card{
+  margin-left: 1rem;
+}
+form {
+  margin-bottom: 20px;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.product-item-img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.product-item h3 {
+  margin: 0;
+}
+
+.product-item p {
+  color: #666;
+}
+
+
+.container-header{
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.container-title{
+  display: flex;
+  gap: 5px;
+}
+.title-header{
+  font-size: 24px;
+  color: #c0c0c0;
+}
+.container-search{
+  text-align: center;
+    padding: 2rem;
+}
+
+.container-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.container-search form {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.container-search input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.container-search input:focus {
+  border-color: #007bff; /* Color de borde cuando el input está enfocado */
+}
+
+.primaryButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.primaryButton:hover {
+  background-color: #0056b3; /* Color de fondo del botón cuando se pasa el ratón por encima */
+}
+
+.primaryButton:active {
+  background-color: #004494; /* Color de fondo del botón cuando se hace clic */
+}
